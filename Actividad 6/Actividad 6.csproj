@@ -67,9 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="html.aspx" />
+    <Content Include="Style.CSS" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="html.aspx.cs">
+      <DependentUpon>html.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html.aspx.designer.cs">
+      <DependentUpon>html.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

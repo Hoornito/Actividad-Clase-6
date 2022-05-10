@@ -1,0 +1,41 @@
+﻿* 
+{
+    font-family: Arial;
+}
+body 
+{
+   display: flex;
+   max-width: 510px;
+}
+.main
+{
+    margin-left: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+.main a
+{
+    color: green;
+}
+.Titulo h2
+{
+    color: green;
+    font-size: 25px;
+    font-weight: normal;
+}
+.lista ul 
+{
+    color: royalblue;
+}
+strong 
+{
+    font-weight: bold;
+}
+.textoNaranja
+{
+    color: orange;
+}
+.textoNaranja a
+{
+    color: orange;
+}
